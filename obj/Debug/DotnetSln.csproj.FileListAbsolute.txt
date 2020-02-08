@@ -65,3 +65,7 @@ E:\DOTNET\DotnetSln\DotnetSln\bin\Microsoft.AI.Web.xml
 E:\DOTNET\DotnetSln\DotnetSln\obj\Debug\DotnetSln.csprojResolveAssemblyReference.cache
 E:\DOTNET\DotnetSln\DotnetSln\obj\Debug\DotnetSln.dll
 E:\DOTNET\DotnetSln\DotnetSln\obj\Debug\DotnetSln.pdb
+E:\DOTNET\DotnetSln\DotnetSln\bin\EntityFramework.dll
+E:\DOTNET\DotnetSln\DotnetSln\bin\EntityFramework.SqlServer.dll
+E:\DOTNET\DotnetSln\DotnetSln\bin\EntityFramework.xml
+E:\DOTNET\DotnetSln\DotnetSln\bin\EntityFramework.SqlServer.xml
