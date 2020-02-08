@@ -8,7 +8,7 @@
 <h2>Create</h2>
 
 
-@using (Html.BeginForm()) 
+@using (Html.BeginForm(new { id = "form" }))
 {
     @Html.AntiForgeryToken()
     
@@ -70,4 +70,18 @@
 
 @section Scripts {
     @Scripts.Render("~/bundles/jqueryval")
+    @Scripts.Render("~/bundles/custom-validator")  
 }
+<script type="text/javascript" language="javascript">
+       $("#form").validate({
+     rules: {
+                FirstName:"required",
+                LastName: "required",
+                Address1: "required",
+                Address2: "required",
+                Address2: "required"
+              }
+            
+     }
+     );
+</script>
